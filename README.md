@@ -1,8 +1,8 @@
 
-# i
+# f
 ![Github license](https://img.shields.io/badge/license-MIT-blue.svg)
 ## Description
-  i
+  f
  ## Table of Contents
   *[Installation](#installation)
   *[Usage](#usage)
@@ -12,19 +12,15 @@
   *[Questions](#questions)
   
 ## Installation
-To install necessary dependencies, run the following command:
-    i
+Run these commands to install a dependency:
+    rtgr
 ## Usage
-i
+rtg
 ## License
-This project is licensed under the i license.
+This project is licensed under the rtg license.
 ## Contributing
-i
+rtg
 ## Tests
-To run tests, run the following command:
-    i
-## Questions
-<img src="https://avatars2.githubusercontent.com/u/2905137?v=4" alt="avatar" style="border-radius: 16px" width="30"/>
-If you have any questions about the repo, open an issue or contact@
-[i]https://github.com/i
-  
+Run these commands to run any tests:
+    t
+    

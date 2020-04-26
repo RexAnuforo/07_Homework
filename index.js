@@ -2,6 +2,8 @@ const inquirer = require('inquirer');
 const axios = require("axios");
 const util = require('util');
 const fs = require('fs');
+const writeFileAsync = util.promisify(fs.writeFile);
+
 
 // -- They give us an ARRAY called 'questions' What could we do with this (?) -- //
 function listQuestions(){
@@ -62,7 +64,7 @@ function writeToFile(fileName, data) {
 
 // -- This is a fairly common programming construct. They are just giving us a FUNCTION to INITIALIZE or SETUP our project parameter. It's also where we usually kick off our project flow -- //
 
-   function init() {
+   async function init() {
     console.log("Creating the README...")
     try {
        
