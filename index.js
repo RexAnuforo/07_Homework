@@ -1,6 +1,38 @@
+const fs = require('fs');
+const axios = require("axios");
+const inquirer = require('inquirer');
+const util = require('util');
 
 // -- They give us an ARRAY called 'questions' What could we do with this (?) -- //
 const questions = [
+    
+inquirer.prompt([
+{
+    type: "input",
+    message: "What is your github user name?",
+    name: "username"
+  },
+  {
+    type: "input",
+    message: "What is your github email?",
+    name: "email"
+  },
+  {
+    type: "input",
+    message: "what is the name of your project",
+    name: "projectName"
+  },
+  {
+      type:"input",
+      message:"Please write a short desrciption of you project",
+      name:"description"
+  },
+  {
+      type:"input",
+      message:"Please write a short desrciption of you project",
+      name:"description"
+  }
+])
 
 ];
 
@@ -15,3 +47,15 @@ function init() {
 
 // -- We DEFINED our INITALIZATION FUNCTION above, here we are just kicking off (running) our program. -- // 
 init();
+
+
+
+//   .then(function(response) {
+
+//     if (response.confirm === response.password) {
+//       console.log("Success!");
+//     }
+//     else {
+//       console.log("You forgot your password already?!");
+//     }
+//   });
