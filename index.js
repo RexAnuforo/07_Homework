@@ -28,10 +28,30 @@ inquirer.prompt([
       name:"description"
   },
   {
-      type:"input",
-      message:"Please write a short desrciption of you project",
-      name:"description"
-  }
+    type: "input",
+    message: "What command should installed",
+    name: "installation"
+  },
+  {
+      type: "input",
+      message: "What kind of license the project should have?",
+      name: "license"
+  },,
+  {
+      type: "input",
+      message: "What command should be run to run tests?",
+      name: "tests"
+  },
+  {
+      type: "input",
+      message: "What does the user need to know about using the repo?",
+      name: "usage"
+  },
+  {
+      type: "input",
+      message: "What does the user need to know about contributing to the repo?",
+      name: "contributing"
+  },
 ])
 
 ];
